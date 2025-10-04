@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Department Portal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <header class="dashboard-header">
+            <h1>HR Department Portal</h1>
+            <a href="index.html" class="back-link">
+                <i class="fas fa-arrow-left"></i> Back to Dashboard
+            </a>
+        </header>
+
+        <main class="content-container">
+            <div class="profile-card">
+                <img src="https://i.pravatar.cc/150?img=58" alt="Profile Photo" class="profile-photo-lg">
+                <div class="profile-info">
+                    <h3>Dr. Alok Verma</h3>
+                    <p><strong>Employee ID:</strong> TCF1023</p>
+                    <p><strong>Designation:</strong> Associate Professor</p>
+                    <p><strong>Department:</strong> Computer Science</p>
+                    <p><strong>Joining Date:</strong> 15 July, 2018</p>
+                </div>
+            </div>
+
+            <h2>Leave Management</h2>
+            <div class="leave-balance-grid">
+                <div class="leave-card">
+                    <h4>10 / 12</h4>
+                    <p>Casual Leave</p>
+                </div>
+                <div class="leave-card">
+                    <h4>5 / 8</h4>
+                    <p>Medical Leave</p>
+                </div>
+                <div class="leave-card">
+                    <h4>2 / 2</h4>
+                    <p>Restricted Holiday</p>
+                </div>
+                <button class="action-button"><i class="fas fa-plus"></i> Apply for Leave</button>
+            </div>
+
+            <div class="table-container">
+                <table>
+                    <caption>Recent Leave Applications</caption>
+                    <thead>
+                        <tr>
+                            <th>Leave Type</th>
+                            <th>From Date</th>
+                            <th>To Date</th>
+                            <th>Days</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Casual Leave</td>
+                            <td>25 Sep, 2025</td>
+                            <td>26 Sep, 2025</td>
+                            <td>2</td>
+                            <td><span class="status-badge status-approved">Approved</span></td>
+                        </tr>
+                        <tr>
+                            <td>Medical Leave</td>
+                            <td>15 Aug, 2025</td>
+                            <td>15 Aug, 2025</td>
+                            <td>1</td>
+                            <td><span class="status-badge status-approved">Approved</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <h2 class="section-title">Payslip History</h2>
+            <div class="table-container">
+                <table>
+                     <caption>Your Payslips</caption>
+                    <thead>
+                        <tr>
+                            <th>Month</th>
+                            <th>Year</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>September</td>
+                            <td>2025</td>
+                            <td><span class="status-badge status-approved">Generated</span></td>
+                            <td><button class="btn-sm"><i class="fas fa-download"></i> Download</button></td>
+                        </tr>
+                        <tr>
+                            <td>August</td>
+                            <td>2025</td>
+                            <td><span class="status-badge status-approved">Generated</span></td>
+                            <td><button class="btn-sm"><i class="fas fa-download"></i> Download</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>

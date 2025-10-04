@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examination Control</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <header class="dashboard-header">
+            <h1>Examination Control</h1>
+            <a href="index.html" class="back-link">
+                <i class="fas fa-arrow-left"></i> Back to Dashboard
+            </a>
+        </header>
+
+        <main class="content-container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <i class="fas fa-calendar-alt"></i>
+                    <div class="stat-info">
+                        <h3>12</h3>
+                        <p>Upcoming Exams</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-file-signature"></i>
+                    <div class="stat-info">
+                        <h3>8</h3>
+                        <p>Results Awaited</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-list-ol"></i>
+                    <div class="stat-info">
+                        <h3>156</h3>
+                        <p>Total Papers</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls-container">
+                <h2>Quick Actions</h2>
+                <div class="action-buttons-group">
+                    <button class="action-button"><i class="fas fa-calendar-plus"></i> Schedule New Exam</button>
+                    <button class="action-button"><i class="fas fa-upload"></i> Upload Papers</button>
+                    <button class="action-button"><i class="fas fa-bullhorn"></i> Publish Results</button>
+                </div>
+            </div>
+
+            <h2>Upcoming Exam Schedule</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Exam Title</th>
+                            <th>Course</th>
+                            <th>Date & Time</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mid-Term Examination</td>
+                            <td>B.Tech CSE (3rd Year)</td>
+                            <td>15 Oct, 2025 - 10:00 AM</td>
+                            <td><span class="status-badge status-scheduled">Scheduled</span></td>
+                            <td><button class="btn-sm">View Details</button></td>
+                        </tr>
+                        <tr>
+                            <td>Internal Assessment</td>
+                            <td>MBA (1st Year)</td>
+                            <td>18 Oct, 2025 - 02:00 PM</td>
+                            <td><span class="status-badge status-scheduled">Scheduled</span></td>
+                            <td><button class="btn-sm">View Details</button></td>
+                        </tr>
+                        <tr>
+                            <td>Practical Lab Exam</td>
+                            <td>B.Tech ME (2nd Year)</td>
+                            <td>20 Oct, 2025 - 09:00 AM</td>
+                            <td><span class="status-badge status-scheduled">Scheduled</span></td>
+                            <td><button class="btn-sm">View Details</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
